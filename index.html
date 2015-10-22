@@ -1,21 +1,43 @@
 <html>
 <head>
   <style>
+    @import url(https://fonts.googleapis.com/css?family=Lora);
     html {
       font-family: open sans, georgia, helvetica, arial;
       background: #f0f6f0;
     }
+
+    h1 {
+      font-family: Lora; 
+      line-height: 30pt;
+      margin-bottom: 2em;
+    }
+    h1 #logo {
+      float:left; font-size: 50pt;
+    }
+    h1 #tagline {
+      margin-top: -3pt;
+      float:left; font-size: 17pt; line-height: 19pt; padding-left: 1em; color: #aaa;
+    }
     body {
       background: white;
-      padding: 45px;
+      padding: 65px;
       padding-top: 50px;
       min-width:600px;
       width: 80%;
-      max-width: 850px;
+      line-height: 20pt;
+      max-width: 750px;
       margin-left: auto;
       margin-right: auto;
       margin-top: 0px;
       margin-bottom: 0px;
+    }
+    li {
+      list-style-type: none;
+      border-left: 5px solid #eee;
+      margin-bottom: 5px;
+      padding-left: 1.5ex;
+      margin-left: -2ex;
     }
   </style>
 </head>
@@ -25,7 +47,11 @@
 
 
   <!--<h1>Towards Interactive Data Visualization Management Systems</h1>-->
-<h1>PerceptVis: Perceptually Aware Interactive Visualization Systems</h1>
+  <h1>
+    <span id="logo" >PerceptVis</span>
+    <span id="tagline">Perceptually Aware Interactive <br/>Visualization Systems</span>
+    <div style="clear=both;width:100%;">&nbsp;</div>
+  </h1>
 
 
 <p>
